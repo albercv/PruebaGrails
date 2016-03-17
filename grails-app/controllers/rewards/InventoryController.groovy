@@ -13,4 +13,8 @@ class InventoryController {
         def sku = "BB01"
         [product:productName, sku:sku]
     }
+    def list(){
+        def allProducts = Product.findAll([allProducts: allProducts])
+        
+    }
 }
