@@ -14,7 +14,7 @@ class InventoryController {
         [product:productName, sku:sku]
     }
     def list(){
-        def allProducts = Product.findAll([allProducts: allProducts])
-        
+        def allProducts = Product.findAll()
+        [allProducts: allProducts]
     }
 }
