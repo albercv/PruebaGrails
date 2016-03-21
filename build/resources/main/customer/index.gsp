@@ -23,6 +23,12 @@
             <div class="pagination">
                 <g:paginate total="${customerCount ?: 0}" />
             </div>
+            <div class="password">
+                <label>
+                    Password
+                </label>
+                <g:passwordField name="password" value="${password}"/>
+            </div>
         </div>
     </body>
 </html>

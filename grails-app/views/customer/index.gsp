@@ -24,5 +24,33 @@
                 <g:paginate total="${customerCount ?: 0}" />
             </div>
         </div>
+            <div class = "nameField">
+            <label for="nameField">
+            Nombre
+            </label>
+            <g:textField name="nameField" value="${nameField}"/>
+            </div>
+
+            <div class="password">
+                    <label for="password">
+            Password
+                    </label>
+                <g:passwordField name="password" value="${password}"/>
+            </div>
+
+    <div class="prueba">
+        <label for="prueba">
+            Género:
+        </label>
+        <g:radioGroup name="prueba" labels="['Male', 'Female']" values="['M', 'F']" value="${prueba}">
+            ${it.label} ${it.radio}
+        </g:radioGroup>
+    </div>
+    <div class="selector">
+        <label for="selector">
+            Como lo sabes? si es que lo sabes...
+        </label>
+        <g:select from="['No tengo ni idea', 'Lo se y punto', 'Alguien me lo dijo', 'Lo he intuido']" name="selector" value="${selector}"/>
+    </div>
     </body>
 </html>
