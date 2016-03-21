@@ -42,7 +42,7 @@ body {
 }
 
 #grailsLogo {
-    background-color: #abbf78;
+    background-color: #8F2F82;
 }
 
 a:hover, a:active {
@@ -84,7 +84,7 @@ img {
 }
 
 .footer {
-    background: #48802c;
+    background: #8F2F82;
     color: #000;
     clear: both;
     font-size: 0.8em;
@@ -446,7 +446,7 @@ th.desc a {
 }
 
 th:hover, tr:hover {
-    background: #79b94c;
+    background: #cc89b8;
 }
 
 /* PAGINATION */

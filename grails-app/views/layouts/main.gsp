@@ -25,7 +25,7 @@
                 </button>
                 <a class="navbar-brand" href="/#">
                     <i class="fa grails-icon">
-                        <asset:image src="grails-cupsonly-logo-white.svg"/>
+                        <asset:image src="Vanamo_Logo.png"/>
                     </i> Grails
                 </a>
             </div>
